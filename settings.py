@@ -8,6 +8,12 @@ MIN_PRICE = int(os.environ.get('MIN_PRICE', 1500))
 # The maximum rent you want to pay per month.
 MAX_PRICE = int(os.environ.get('MAX_PRICE', 2000))
 
+# Greater than or equal number of bedrooms
+BEDROOMS = int(os.environ.get('BEDROOMS', 1))
+
+# Greater than or equal number of bathrooms
+BATHROOMS = int(os.environ.get('BATHROOMS', 1))
+
 ## Location preferences
 
 # The Craigslist site you want to search on.
